@@ -7,7 +7,7 @@ attr_accessor :name
   end
 
   def appointments
-    @appointments
+    self.appointments
   end
 
   def add_appointment(appointment)
