@@ -20,3 +20,5 @@ def patients
   self.appointments.map {|appt|patients << appt.patient}
   patients
 end
+
+end
