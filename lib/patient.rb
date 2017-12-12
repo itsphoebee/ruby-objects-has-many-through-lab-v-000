@@ -7,10 +7,12 @@ def initialize(name)
 end
 
 def add_appointment(appointment)
-  @appointments << appointment
+  self.appointments << appointment
   appointment.patient = self
 end
 
 def appointments
   @appointments
 end
+
+def doctors
