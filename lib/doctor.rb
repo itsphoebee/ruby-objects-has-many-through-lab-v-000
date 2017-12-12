@@ -17,5 +17,5 @@ end
 
 def patients
   patients = []
-  self.appointments.map {|appt|appt.patient}
+  self.appointments.map {|appt|patients << appt.patient}
 end
