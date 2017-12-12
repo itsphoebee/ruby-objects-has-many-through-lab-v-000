@@ -5,5 +5,5 @@ def initialize(date, doctor)
   @doctor = doctor
   @date = date
   
-
+end
 end
