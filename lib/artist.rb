@@ -17,7 +17,7 @@ attr_accessor :name
 
   def genres
     genres = []
-    @songs.collect {|song| genres << song.genre}
+    self.songs.collect {|song| genres << song.genre}
     genres
   end
 
