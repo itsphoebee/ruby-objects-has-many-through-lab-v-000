@@ -17,7 +17,7 @@ attr_accessor :name
 
   def patients
     patients = []
-    self.appointments.map {|appt|patients << appt.patient}
+    self.appointments.collect {|appt|patients << appt.patient}
     patients
   end
 
