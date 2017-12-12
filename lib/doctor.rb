@@ -12,7 +12,7 @@ def add_appointment(appointment)
 end
 
 def appointments
-  self.appointments
+  @appointments
 end
 
 def patients
