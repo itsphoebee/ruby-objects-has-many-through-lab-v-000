@@ -12,7 +12,7 @@ end
 
 def artists
   artists = []
-  @songs.map {|song| artists << song.artist}
+  self.songs.map {|song| artists << song.artist}
   artists
 end
 
