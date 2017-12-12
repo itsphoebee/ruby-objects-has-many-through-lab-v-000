@@ -12,6 +12,9 @@ def add_appointment(appt)
 end
 
 def doctors
+  doctors = []
+  @appointments.map {|appt|doctors << appt.doctor}
+  doctors
 end
 
 end
