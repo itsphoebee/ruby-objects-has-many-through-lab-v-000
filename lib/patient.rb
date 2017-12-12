@@ -9,10 +9,9 @@ attr_accessor :name
   def appointments
     @appointments
   end
-  
+
   def add_appointment(appointment)
     @appointments << appointment
-    
   end
 
   def doctors
